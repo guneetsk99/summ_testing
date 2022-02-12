@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python run_summarization.py --mode=train --data_path=/home/jnzhu/finished_files/chunked/train_* --vocab_path=/home/jnzhu/finished_files/vocab --log_root=/home/jnzhu/ATL/log/ --exp_name=zhuexperiment  --img_data_path=/home/jnzhu/finished_files/chunk_pool5/feature_* --max_train_iterations=400000 --coverage=True --convert_to_coverage_model=True
